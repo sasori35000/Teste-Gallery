@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+<meta charset="utf-8">
+<title>Id-erased</title>
+<link rel="stylesheet" href="styleid.css">
+<script src="Script_Essaie.js"></script>
+<style>
+
+@media only screen and (min-width: 0px) {
+  p{
+    padding-left:10px; 
+	padding-right:10px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  p {
+    padding-left:50px; 
+	padding-right:50px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  p {
+    padding-left:100px; 
+	padding-right:100px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  p{
+    padding-left:150px; 
+	padding-right:150px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  p {
+    padding-left:200px; 
+	padding-right:200px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  p {
+    padding-left:250px; 
+	padding-right:250px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  p {
+    padding-left:300px; 
+	padding-right:300px;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  p {
+    padding-left:350px; 
+	padding-right:350px;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  p {
+    padding-left:400px; 
+	padding-right:400px;
+  }
+}
+@media only screen and (min-width: 2200px) {
+  p {
+    padding-left:500px; 
+	padding-right:500px;
+  }
+}
+@media only screen and (min-width: 2500px) {
+  p {
+    padding-left:900px; 
+	padding-right:900px;
+  }
+}
+@media only screen and (min-width: 3500px) {
+  p {
+    padding-left:1700px; 
+	padding-right:1700px;
+  }
+}
+@media only screen and (min-width: 5000px) {
+  p {
+    padding-left:2400px; 
+	padding-right:2400px;
+  }
+}
+
+
+
+@media only screen and (min-width: 0px) {
+  .menu{
+    padding-left:10px; 
+	padding-right:10px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .menu {
+    padding-left:150px; 
+	padding-right:150px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .menu {
+    padding-left:225px; 
+	padding-right:225px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .menu{
+    padding-left:325px; 
+	padding-right:325px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .menu{
+    padding-left:400px; 
+	padding-right:400px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .menu {
+    padding-left:475px; 
+	padding-right:475px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .menu {
+    padding-left:550px; 
+	padding-right:550px;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .menu {
+    padding-left:675px; 
+	padding-right:675px;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .menu {
+    padding-left:750px; 
+	padding-right:750px;
+  }
+}
+@media only screen and (min-width: 2200px) {
+  .menu {
+    padding-left:850px; 
+	padding-right:850px;
+  }
+}
+@media only screen and (min-width: 2500px) {
+  .menu {
+    padding-left:1250px; 
+	padding-right:1250px;
+  }
+}
+@media only screen and (min-width: 3500px) {
+  .menu{
+    padding-left:2000px; 
+	padding-right:2000px;
+  }
+}
+@media only screen and (min-width: 5000px) {
+  .menu{
+    padding-left:2800px; 
+	padding-right:2800px;
+  }
+}
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+  .imghearder{
+    height:550px; 
+	height:550px;
+	clip: rect(0px,1000px,550px,1000px);
+  }
+}
+
+
+*{
+margin: 0;
+padding: 0;
+}
+</style>
+</head>
+
+<body style="background-color:#f2f2f2; font-family: Lucida Console, Courier New, monospace;">
+<table id="header" style= "border:solid; background-color: #e6e6ff; width: 100%; <!--position: sticky;--> top: 0;">
+  <tr>
+	<th  style="text-align: right;">
+		<span id="1" onmouseover="myFunction5()" onmouseout="myFunction6()" style= "font-size:30px; border-bottom-style: solid; border-color: blue;">Home</span>  
+	</th>
+	<th style="text-align: right;">
+		<span id="2" onmouseover="myFunction7()" onmouseout="myFunction8()" style= "font-size:30px; border-bottom-style: solid; border-color: blue;">Gallery</span>
+	</th>
+	<th style="text-align: right;">
+		<span id="3" onmouseover="myFunction9()" onmouseout="myFunction10()" style= "font-size:30px; border-bottom-style: solid; border-color: blue;">Contact</span>
+	</th>
+
+	<th><img style="height:50px;"src="logo.svg"></th>
+
+	<th style="text-align: left; padding-right: 25px;"><span href="#" id = "change" onmouseover="myFunction1()" onmouseout="myFunction2()" style="background-color: rgba(255, 255, 255, .0); border-style: solid; border-width: 1px;  padding: 10px; margin-top: 10px; text-align: right;" >Ceci&nbsp;est&nbsp;un&nbsp;essaie</span></th>
+  </tr>
+ </table>
+
+
+<div class="imgheader" style="object-fit:cover; position:relative; max-height:550px;">
+<img class="imgheader" src="header.jpg" style=" object-fit:cover; width:100%; min-width:1200px; max-width:1200px; display: block; margin-left: auto; margin-right: auto;">
+	<div style="position: absolute;z-index:1;"></div>
+	<div style="color: white; background-color: rgba(255, 255, 255, .0); border-style: solid; border-width: 1px;  padding: 10px; margin-top: 75px; margin-right: 250px; position: absolute;z-index:2; left:50%; top:60%; max-height: 10px" href="#" id = "change2" onmouseover="myFunction1()" onmouseout="myFunction2()" style="" >Ceci&nbsp;est&nbsp;un&nbsp;essaie</div>
+</div>
+
+<h1 style="text-align:center">Last Exibition</h1>
+
+<table class='menu' style=" width: 60%;">
+  <tr>
+	<th style="text-align: right;"><img id="left" src="pixlr-bg-result (11).png"  style=" width: 30px" onclick="myFunction3()" onclick=" myFunction4()"></th>
+	<th style="text-align: right;"><img src="img1.jpg"  style=" width: 150px; max-height:700px" id="pop1" onmouseover="myFunction3()" onmouseout="myFunction4()" ></th>
+	<th><img src="img2.jpg"  style=" width: 200px; max-height:700px" id="pop2" onmouseover="myFunction3()" onmouseout="myFunction4()" ></th>
+	<th style="text-align: left;"><img src="img3.jpg"  style=" width: 150px; max-height:700px" id="pop3" onmouseover="myFunction3()" onmouseout="myFunction4()" ></th>
+	<th style="text-align: left;"><img id="right" src="pixlr-bg-result (12).png"  style=" width: 30px" ></th>
+  </tr>
+ </table> 
+	
+<p style=" padding-top:50px; padding-bottom:50px;">
+Patricia loves the sound of nails strongly pressed against the chalkboard. Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. Clyde blue enemies flash dots wocka maze monsters ghosts red chaser. The old apple revels in its authority. He was willing to find the depths of the rabbit hole in order to be with her. Poison ivy grew through the fence they said was impenetrable. He hated that he loved what she hated about hate. Ghosts dots cherry Blinky Pac-Man Power Pellets fruit. Fluffy pink unicorns are a popular status symbol among macho men. Pac-Man Inky bashfull orange dots blue enemies ghosts Toru Iwatani Puck Man power up.
+
+He found his art never progressed when he literally used his sweat and tears. Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. Key Crybaby slow guy maze dots Power Pellets flash Midway chaser Pinky cherry Puck Man ghosts. The external scars tell only part of the story. Orange fickle blue guy maze chase. Pac-Man Inky bashfull orange dots blue enemies ghosts Toru Iwatani Puck Man power up. Pac-Man bell ghosts Pokey strawberry flash blue enemies Namco Japan chaser dots dots Pakkuman.
+
+Ghosts dots cherry Blinky Pac-Man Power Pellets fruit. He found his art never progressed when he literally used his sweat and tears. I hear that Nancy is very pretty. Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. Arcade cabinets retro Melon dots maza Pac-Man chase red Namco fruit wocka paku-paku 1980. He hated that he loved what she hated about hate. Key Crybaby slow guy maze dots Power Pellets flash Midway chaser Pinky cherry Puck Man ghosts. Don't put peanut butter on the dog's nose. He was willing to find the depths of the rabbit hole in order to be with her.
+
+He hated that he loved what she hated about hate. I hear that Nancy is very pretty. The old apple revels in its authority. Shadow dots strawberry Pac-Man Midway chaser Pinky kill screen. He found his art never progressed when he literally used his sweat and tears. Clyde blue enemies flash dots wocka maze monsters ghosts red chaser. Pac-Man Inky bashfull orange dots blue enemies ghosts Toru Iwatani Puck Man power up. Fluffy pink unicorns are a popular status symbol among macho men. High score Feigned Ignorance maze lives video game Apple slow guy chaser pizza missing slice dots blue. Flying fish few by the space station.
+
+Patricia loves the sound of nails strongly pressed against the chalkboard. He hated that he loved what she hated about hate. I hear that Nancy is very pretty. Orange fickle blue guy maze chase. The old apple revels in its authority. Clyde blue enemies flash dots wocka maze monsters ghosts red chaser. Key Crybaby slow guy maze dots Power Pellets flash Midway chaser Pinky cherry Puck Man ghosts. Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. Pac-Man Namco Toru Iwatani Pac-Man Fever maze dots. Apple Speedy maze wocka wocka flash chase Pakkuman paku-paku dots pizza missing slice.
+
+Patricia loves the sound of nails strongly pressed against the chalkboard. Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. Clyde blue enemies flash dots wocka maze monsters ghosts red chaser. The old apple revels in its authority. He was willing to find the depths of the rabbit hole in order to be with her. Poison ivy grew through the fence they said was impenetrable. He hated that he loved what she hated about hate. Ghosts dots cherry Blinky Pac-Man Power Pellets fruit. Fluffy pink unicorns are a popular status symbol among macho men. Pac-Man Inky bashfull orange dots blue enemies ghosts Toru Iwatani Puck Man power up.
+
+He found his art never progressed when he literally used his sweat and tears. Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. Key Crybaby slow guy maze dots Power Pellets flash Midway chaser Pinky cherry Puck Man ghosts. The external scars tell only part of the story. Orange fickle blue guy maze chase. Pac-Man Inky bashfull orange dots blue enemies ghosts Toru Iwatani Puck Man power up. Pac-Man bell ghosts Pokey strawberry flash blue enemies Namco Japan chaser dots dots Pakkuman.
+
+Ghosts dots cherry Blinky Pac-Man Power Pellets fruit. He found his art never progressed when he literally used his sweat and tears. I hear that Nancy is very pretty. Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. Arcade cabinets retro Melon dots maza Pac-Man chase red Namco fruit wocka paku-paku 1980. He hated that he loved what she hated about hate. Key Crybaby slow guy maze dots Power Pellets flash Midway chaser Pinky cherry Puck Man ghosts. Don't put peanut butter on the dog's nose. He was willing to find the depths of the rabbit hole in order to be with her.
+
+He hated that he loved what she hated about hate. I hear that Nancy is very pretty. The old apple revels in its authority. Shadow dots strawberry Pac-Man Midway chaser Pinky kill screen. He found his art never progressed when he literally used his sweat and tears. Clyde blue enemies flash dots wocka maze monsters ghosts red chaser. Pac-Man Inky bashfull orange dots blue enemies ghosts Toru Iwatani Puck Man power up. Fluffy pink unicorns are a popular status symbol among macho men. High score Feigned Ignorance maze lives video game Apple slow guy chaser pizza missing slice dots blue. Flying fish few by the space station.
+
+Patricia loves the sound of nails strongly pressed against the chalkboard. He hated that he loved what she hated about hate. I hear that Nancy is very pretty. Orange fickle blue guy maze chase. The old apple revels in its authority. Clyde blue enemies flash dots wocka maze monsters ghosts red chaser. Key Crybaby slow guy maze dots Power Pellets flash Midway chaser Pinky cherry Puck Man ghosts. Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. Pac-Man Namco Toru Iwatani Pac-Man Fever maze dots. Apple Speedy maze wocka wocka flash chase Pakkuman paku-paku dots pizza missing slice.
+
+Patricia loves the sound of nails strongly pressed against the chalkboard. Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. Clyde blue enemies flash dots wocka maze monsters ghosts red chaser. The old apple revels in its authority. He was willing to find the depths of the rabbit hole in order to be with her. Poison ivy grew through the fence they said was impenetrable. He hated that he loved what she hated about hate. Ghosts dots cherry Blinky Pac-Man Power Pellets fruit. Fluffy pink unicorns are a popular status symbol among macho men. Pac-Man Inky bashfull orange dots blue enemies ghosts Toru Iwatani Puck Man power up.
+
+He found his art never progressed when he literally used his sweat and tears. Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. Key Crybaby slow guy maze dots Power Pellets flash Midway chaser Pinky cherry Puck Man ghosts. The external scars tell only part of the story. Orange fickle blue guy maze chase. Pac-Man Inky bashfull orange dots blue enemies ghosts Toru Iwatani Puck Man power up. Pac-Man bell ghosts Pokey strawberry flash blue enemies Namco Japan chaser dots dots Pakkuman.
+
+Ghosts dots cherry Blinky Pac-Man Power Pellets fruit. He found his art never progressed when he literally used his sweat and tears. I hear that Nancy is very pretty. Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. Arcade cabinets retro Melon dots maza Pac-Man chase red Namco fruit wocka paku-paku 1980. He hated that he loved what she hated about hate. Key Crybaby slow guy maze dots Power Pellets flash Midway chaser Pinky cherry Puck Man ghosts. Don't put peanut butter on the dog's nose. He was willing to find the depths of the rabbit hole in order to be with her.
+
+He hated that he loved what she hated about hate. I hear that Nancy is very pretty. The old apple revels in its authority. Shadow dots strawberry Pac-Man Midway chaser Pinky kill screen. He found his art never progressed when he literally used his sweat and tears. Clyde blue enemies flash dots wocka maze monsters ghosts red chaser. Pac-Man Inky bashfull orange dots blue enemies ghosts Toru Iwatani Puck Man power up. Fluffy pink unicorns are a popular status symbol among macho men. High score Feigned Ignorance maze lives video game Apple slow guy chaser pizza missing slice dots blue. Flying fish few by the space station.
+
+Patricia loves the sound of nails strongly pressed against the chalkboard. He hated that he loved what she hated about hate. I hear that Nancy is very pretty. Orange fickle blue guy maze chase. The old apple revels in its authority. Clyde blue enemies flash dots wocka maze monsters ghosts red chaser. Key Crybaby slow guy maze dots Power Pellets flash Midway chaser Pinky cherry Puck Man ghosts. Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. Pac-Man Namco Toru Iwatani Pac-Man Fever maze dots. Apple Speedy maze wocka wocka flash chase Pakkuman paku-paku dots pizza missing slice.
+
+Patricia loves the sound of nails strongly pressed against the chalkboard. Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. Clyde blue enemies flash dots wocka maze monsters ghosts red chaser. The old apple revels in its authority. He was willing to find the depths of the rabbit hole in order to be with her. Poison ivy grew through the fence they said was impenetrable. He hated that he loved what she hated about hate. Ghosts dots cherry Blinky Pac-Man Power Pellets fruit. Fluffy pink unicorns are a popular status symbol among macho men. Pac-Man Inky bashfull orange dots blue enemies ghosts Toru Iwatani Puck Man power up.
+
+He found his art never progressed when he literally used his sweat and tears. Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. Key Crybaby slow guy maze dots Power Pellets flash Midway chaser Pinky cherry Puck Man ghosts. The external scars tell only part of the story. Orange fickle blue guy maze chase. Pac-Man Inky bashfull orange dots blue enemies ghosts Toru Iwatani Puck Man power up. Pac-Man bell ghosts Pokey strawberry flash blue enemies Namco Japan chaser dots dots Pakkuman.
+
+Ghosts dots cherry Blinky Pac-Man Power Pellets fruit. He found his art never progressed when he literally used his sweat and tears. I hear that Nancy is very pretty. Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. Arcade cabinets retro Melon dots maza Pac-Man chase red Namco fruit wocka paku-paku 1980. He hated that he loved what she hated about hate. Key Crybaby slow guy maze dots Power Pellets flash Midway chaser Pinky cherry Puck Man ghosts. Don't put peanut butter on the dog's nose. He was willing to find the depths of the rabbit hole in order to be with her.
+
+He hated that he loved what she hated about hate. I hear that Nancy is very pretty. The old apple revels in its authority. Shadow dots strawberry Pac-Man Midway chaser Pinky kill screen. He found his art never progressed when he literally used his sweat and tears. Clyde blue enemies flash dots wocka maze monsters ghosts red chaser. Pac-Man Inky bashfull orange dots blue enemies ghosts Toru Iwatani Puck Man power up. Fluffy pink unicorns are a popular status symbol among macho men. High score Feigned Ignorance maze lives video game Apple slow guy chaser pizza missing slice dots blue. Flying fish few by the space station.
+
+Patricia loves the sound of nails strongly pressed against the chalkboard. He hated that he loved what she hated about hate. I hear that Nancy is very pretty. Orange fickle blue guy maze chase. The old apple revels in its authority. Clyde blue enemies flash dots wocka maze monsters ghosts red chaser. Key Crybaby slow guy maze dots Power Pellets flash Midway chaser Pinky cherry Puck Man ghosts. Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. Pac-Man Namco Toru Iwatani Pac-Man Fever maze dots. Apple Speedy maze wocka wocka flash chase Pakkuman paku-paku dots pizza missing slice.
+
+Patricia loves the sound of nails strongly pressed against the chalkboard. Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. Clyde blue enemies flash dots wocka maze monsters ghosts red chaser. The old apple revels in its authority. He was willing to find the depths of the rabbit hole in order to be with her. Poison ivy grew through the fence they said was impenetrable. He hated that he loved what she hated about hate. Ghosts dots cherry Blinky Pac-Man Power Pellets fruit. Fluffy pink unicorns are a popular status symbol among macho men. Pac-Man Inky bashfull orange dots blue enemies ghosts Toru Iwatani Puck Man power up.
+
+He found his art never progressed when he literally used his sweat and tears. Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. Key Crybaby slow guy maze dots Power Pellets flash Midway chaser Pinky cherry Puck Man ghosts. The external scars tell only part of the story. Orange fickle blue guy maze chase. Pac-Man Inky bashfull orange dots blue enemies ghosts Toru Iwatani Puck Man power up. Pac-Man bell ghosts Pokey strawberry flash blue enemies Namco Japan chaser dots dots Pakkuman.
+
+Ghosts dots cherry Blinky Pac-Man Power Pellets fruit. He found his art never progressed when he literally used his sweat and tears. I hear that Nancy is very pretty. Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. Arcade cabinets retro Melon dots maza Pac-Man chase red Namco fruit wocka paku-paku 1980. He hated that he loved what she hated about hate. Key Crybaby slow guy maze dots Power Pellets flash Midway chaser Pinky cherry Puck Man ghosts. Don't put peanut butter on the dog's nose. He was willing to find the depths of the rabbit hole in order to be with her.
+
+He hated that he loved what she hated about hate. I hear that Nancy is very pretty. The old apple revels in its authority. Shadow dots strawberry Pac-Man Midway chaser Pinky kill screen. He found his art never progressed when he literally used his sweat and tears. Clyde blue enemies flash dots wocka maze monsters ghosts red chaser. Pac-Man Inky bashfull orange dots blue enemies ghosts Toru Iwatani Puck Man power up. Fluffy pink unicorns are a popular status symbol among macho men. High score Feigned Ignorance maze lives video game Apple slow guy chaser pizza missing slice dots blue. Flying fish few by the space station.
+
+Patricia loves the sound of nails strongly pressed against the chalkboard. He hated that he loved what she hated about hate. I hear that Nancy is very pretty. Orange fickle blue guy maze chase. The old apple revels in its authority. Clyde blue enemies flash dots wocka maze monsters ghosts red chaser. Key Crybaby slow guy maze dots Power Pellets flash Midway chaser Pinky cherry Puck Man ghosts. Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. Pac-Man Namco Toru Iwatani Pac-Man Fever maze dots. Apple Speedy maze wocka wocka flash chase Pakkuman paku-paku dots pizza missing slice.
+</p>
+
+<div style="text-align:center;"><img src="icones/mail1.png" style="width: 75px" ><img src="icones/twitter1.png" style="width:  75px" ><img src="icones/pinterest1.png" style="width:  75px" ><img src="icones/youtube1.png" style="width:  75px" ></div>
+<div style="border-top-style:solid; border-top-color:blue;"><img src="footer.png" style="width: 100%; height:200px" ></div>
+
+</body>
+</html>
